@@ -1,0 +1,35 @@
+# move up one directory from the location of this script
+
+cd ..
+
+# go into the zip_files fodler
+
+cd files/zip_files
+
+# create new tmp directory
+
+mkdir tmp
+
+# unzip file into tmp directory, immediately move and rename the file, tmp directory is then empty
+
+count=0
+
+for f in *.zip*; do unzip "$f" -d tmp && mv tmp/* "file$count.json" && (( count++ )); done
+
+# remove tmp directory
+
+rmdir tmp
+
+# go into parent directory
+
+cd ..
+
+# make directory to store new unzipped files
+
+mkdir json_files
+
+# move all json extracts to their own directory
+
+mv zip_files/*.json json_files/
+
+

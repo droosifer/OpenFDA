@@ -1,0 +1,107 @@
+[
+  {
+    "reaction": [
+      {
+        "number_of_animals_affected": "1",
+        "veddra_term_code": "2656",
+        "veddra_term_name": "Lack of efficacy (roundworm)",
+        "veddra_version": "11",
+        "accuracy": "Actual"
+      }
+    ],
+    "original_receive_date": "20190411",
+    "secondary_reporter": "Animal Owner",
+    "serious_ae": "false",
+    "animal": {
+      "reproductive_status": "Intact",
+      "weight": {
+        "qualifier": "Measured",
+        "unit": "Kilogram",
+        "min": "19.414"
+      },
+      "gender": "Male",
+      "age": {
+        "qualifier": "Estimated",
+        "unit": "Year",
+        "min": "2.00"
+      },
+      "breed": {
+        "breed_component": "Spaniel (unspecified)",
+        "is_crossbred": "false"
+      },
+      "female_animal_physiological_status": "NOT APPLICABLE",
+      "species": "Dog"
+    },
+    "primary_reporter": "Other Health Care Professional",
+    "unique_aer_id_number": "USA-USFDACVM-2019-US-014366",
+    "drug": [
+      {
+        "administered_by": "Animal Owner",
+        "lot_number": "UNKNOWN",
+        "previous_ae_to_drug": "true",
+        "last_exposure_date": "20190104",
+        "previous_exposure_to_drug": "true",
+        "route": "Oral",
+        "brand_name": "MSK",
+        "dose": {
+          "numerator": "1",
+          "denominator": "1",
+          "numerator_unit": "dose",
+          "denominator_unit": "Unknown"
+        },
+        "active_ingredients": [
+          {
+            "name": "Ivermectin",
+            "dose": {
+              "numerator_unit": "Microgram",
+              "denominator": "1",
+              "numerator": "136",
+              "denominator_unit": "dose"
+            }
+          },
+          {
+            "name": "Pyrantel As Pamoate Salt",
+            "dose": {
+              "numerator_unit": "Milligram",
+              "denominator": "1",
+              "numerator": "114",
+              "denominator_unit": "dose"
+            }
+          }
+        ],
+        "first_exposure_date": "20180705",
+        "used_according_to_label": "true",
+        "manufacturer": {
+          "name": "MSK",
+          "registration_number": "USA-USFDACVM-N140971"
+        },
+        "atc_vet_code": "QP54AA51",
+        "dosage_form": "Tablet, chewable"
+      }
+    ],
+    "treated_for_ae": "true",
+    "number_of_animals_treated": "1",
+    "onset_date": "20190126",
+    "receiver": {
+      "city": "Rockville",
+      "country": "USA",
+      "state": "MD",
+      "postal_code": "20855",
+      "organization": "Food and Drug Administration Center for Veterinary Medicine",
+      "street_address": "7500 Standish Place (HFV-210) Room N403"
+    },
+    "number_of_animals_affected": "1",
+    "type_of_information": "Lack Of Expected Effectiveness",
+    "outcome": [
+      {
+        "medical_status": "Outcome Unknown",
+        "number_of_animals_affected": "1"
+      }
+    ],
+    "health_assessment_prior_to_exposure": {
+      "assessed_by": "Veterinarian",
+      "condition": "Good"
+    },
+    "report_id": "N140971"
+  }
+]

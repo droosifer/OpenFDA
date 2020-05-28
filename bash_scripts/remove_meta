@@ -1,0 +1,12 @@
+cd ..
+
+cd files/json_files
+
+for f in *.json; do 
+
+jq .results[] $f > tmp.json && 
+
+cp -f tmp.json $f && 
+
+rm tmp.json; done
+
